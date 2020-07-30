@@ -1,12 +1,13 @@
 # dmwStringConvert.py
 Python script to convert wavetable sample strings into .dmw files for use in Deflemask
 
-**PLEASE ENSURE YOU SET THE HEX FLAG TO FALSE IF YOUR DATA IS IN DECIMAL**
+### Usage
+Run dmwStringConvert.py and ensure that there is a text file containing wavetable sample stings separated by newlines (enter key). Ensure that the variables under `#USER VARIABLES` are set correctly. **PLEASE ENSURE YOU SET THE HEX FLAG TO FALSE IF YOUR DATA IS IN DECIMAL**
 
 ### TODO
 - add program args instead of source code user variables
 
-##.dmw Reverse Engineered format
+## .dmw Reverse Engineered format
 
 Dispite the .dmf format specifications having been released by Delek, the .dmw specifications have not. These are the reverse engineered specifications. 
 
@@ -16,7 +17,6 @@ Please note that there are 2 different types of .dmw formats found refered here 
 "Old style" (Included in examples)
 4 Bytes: Number of samples in Wavetable
 1 Byte: Bit depth
-
 for number of samples in wavetable
   1 Byte: wavetable data
 
