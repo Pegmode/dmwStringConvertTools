@@ -39,7 +39,7 @@ def writeWaveNewFormat(f,waveData):#don't need to use this.
 
 def writeWaveOldFormat(f,waveData):
   print("Writing wave: {}\nWaveSize: {}\n".format(waveData,len(waveData)+1))
-  if len(waveData != 31):
+  if len(waveData) != 31:
     print("WARNING: Wave size does not match normal GB/PCE size! (size = 32 samples)\nWave may be malformatted!!\n")
   if not SYSTEM in PSYSTEMS:
     print("ERROR: {} is not a valid system!!\nValid systems: {}".format(SYSTEM,PSYSTEMS))
