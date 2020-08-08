@@ -1,8 +1,12 @@
-# dmwStringConvert.py
+# dmwStringConvertTools
 Python script to convert wavetable sample strings into .dmw files for use in Deflemask
 
 ### Usage
+##### Convert sample string to .dmw
 Run dmwStringConvert.py and ensure that there is a text file containing wavetable sample stings separated by newlines (enter key). Ensure that the variables under `#USER VARIABLES` are set correctly. **PLEASE ENSURE YOU SET THE HEX FLAG TO FALSE IF YOUR DATA IS IN DECIMAL**
+##### Format LSDJ wavetables 
+Dump wavetable samples from LSDJ .sav into INTPATH then run LSDJSavDataForm.py 
+
 
 ### TODO
 - add program args instead of source code user variables
