@@ -10,6 +10,7 @@ Dump wavetable samples from LSDJ .sav into INTPATH then run LSDJSavDataForm.py
 
 ### TODO
 - add program args instead of source code user variables
+- change base selection from bool to int and simplify code
 
 ## .dmw Reverse Engineered format
 
